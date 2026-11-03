@@ -45,9 +45,10 @@ main {
     object-fit:  cover;
 }
 
-#card {
+ul {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #conteiner-titulo-lista {
