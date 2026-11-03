@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #344E41;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header section {
+    display: flex;
+    flex-direction: column;
+}
+
+header a {
+    text-decoration: none;
+    background-color: #1c2a23;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+main {
+    background-color: #b7dcb6;
+}
+
+#resposta {
+    padding-top: 50px;
+}
+
+#titulo-jogo {
+    padding: 20px
+}
+
+.card-capa img {
+    width: 300px;
+    height: 200px;
+    object-fit:  cover;
+}
+
+#card {
+    display: flex;
+    flex-direction: row;
+}
+
+#conteiner-titulo-lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

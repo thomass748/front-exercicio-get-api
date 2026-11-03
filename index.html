@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Consultar atletas</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/get.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <section>
+                <h1>Lista de jogos</h1>
+                <p>Prática com o método GET: buscar e exibir os jogos da API do codeverse</p>
+            </section>
+            <a href="pages/cadastro.html">Ir para o cadastro</a>
+        </header>
+
+        <main>
+            
+            <section id="conteiner-titulo-lista">
+                
+                <h2 id="titulo-jogo">Heróis cadastrados</h2>
+                <p>Os atletas são carregados automaticamente ao iniciar a página</p>
+                <p id="resposta"></p>
+                <ul id="lista-jogos"></ul>
+
+                
+            </section>
+        </main>
+
+        <template id="modelo-jogo">
+            <li>
+                <section id="card">
+                    <section class="card-capa">
+                        <img alt="" />
+                    </section>
+                    <section class="card-conteudo">
+                        <h3 class="nome"></h3>
+                        <p><strong>Gênero:</strong><span class="genero"></span></p>
+                        <p><strong>Plataforma:</strong><span class="plataforma"></span></p>
+                        <p><strong>Ano de lançamento:</strong><span class="ano_lancamento"></span></p>
+                        <p><strong>Desenvolvedora:</strong><span class="desenvolvedora"></span></p>
+                    </section>
+                </section>
+            </li>
+        </template>
+    </body>
+</html>
